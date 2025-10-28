@@ -3,3 +3,17 @@ The AspNetCore.OpenApi package (officially called Microsoft.AspNetCore.OpenApi) 
 that helps you generate and work with OpenAPI (Swagger) documents in ASP.NET Core applications.
 
 2.Create 1.VillaController 2.Villa Model 3. VillaDTO 4.VillaStore
+
+3. Common Error codes
+	200-Success, 201-Created, 204-NoContent, 400-BadReq 401-UnAuthorized, 403-Forbidden, 404-NotFound,500-internetServerError
+
+
+4. What is Microsoft.AspNetCore.JsonPatch?
+
+JsonPatch is a JSON-based format for partial updates to a resource.
+It follows the RFC 6902 specification (JSON Patch standard).
+
+5. MS.AspNetCore.Newtonsoft.Json
+
+
+
