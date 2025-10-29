@@ -15,5 +15,17 @@ It follows the RFC 6902 specification (JSON Patch standard).
 
 5. MS.AspNetCore.Newtonsoft.Json
 
+6.CRUD
 
+7.Dependency Inj
+
+	1.MS.EntityFrameworkCore.Sqlserver
+	2.MS.EntityFrameworkCore.Tools
+	
+	3.Data->ApplicationDbContext
+	4.public DbSet<Villa> Villas { get; set; }
+    5. builder.Services.AddDbContext<ApplicationDbContext>(options =>
+		{
+			options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultSQLConn"));
+		});
 

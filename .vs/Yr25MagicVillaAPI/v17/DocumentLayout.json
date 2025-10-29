@@ -3,16 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\acer\\source\\repos\\Yr25MagicVillaAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{02E87F82-C706-4149-8921-E4F4DA016D57}|Yr25MagicVillaAPI\\Yr25MagicVillaAPI.csproj|c:\\users\\acer\\source\\repos\\yr25magicvillaapi\\yr25magicvillaapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{02E87F82-C706-4149-8921-E4F4DA016D57}|Yr25MagicVillaAPI\\Yr25MagicVillaAPI.csproj|solutionrelative:yr25magicvillaapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{02E87F82-C706-4149-8921-E4F4DA016D57}|Yr25MagicVillaAPI\\Yr25MagicVillaAPI.csproj|c:\\users\\acer\\source\\repos\\yr25magicvillaapi\\yr25magicvillaapi\\controllers\\villaapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{02E87F82-C706-4149-8921-E4F4DA016D57}|Yr25MagicVillaAPI\\Yr25MagicVillaAPI.csproj|solutionrelative:yr25magicvillaapi\\controllers\\villaapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\acer\\source\\repos\\Yr25MagicVillaAPI\\Yr25MagicVillaAPI\\Migrations\\20251029074341_data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Yr25MagicVillaAPI\\Migrations\\20251029074341_data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02E87F82-C706-4149-8921-E4F4DA016D57}|Yr25MagicVillaAPI\\Yr25MagicVillaAPI.csproj|c:\\users\\acer\\source\\repos\\yr25magicvillaapi\\yr25magicvillaapi\\yr25magicvillaapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{02E87F82-C706-4149-8921-E4F4DA016D57}|Yr25MagicVillaAPI\\Yr25MagicVillaAPI.csproj|solutionrelative:yr25magicvillaapi\\yr25magicvillaapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02E87F82-C706-4149-8921-E4F4DA016D57}|Yr25MagicVillaAPI\\Yr25MagicVillaAPI.csproj|c:\\users\\acer\\source\\repos\\yr25magicvillaapi\\yr25magicvillaapi\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02E87F82-C706-4149-8921-E4F4DA016D57}|Yr25MagicVillaAPI\\Yr25MagicVillaAPI.csproj|solutionrelative:yr25magicvillaapi\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\acer\\source\\repos\\Yr25MagicVillaAPI\\Yr25MagicVillaAPI\\Migrations\\20251029073250_seedVilla.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Yr25MagicVillaAPI\\Migrations\\20251029073250_seedVilla.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\acer\\source\\repos\\Yr25MagicVillaAPI\\Yr25MagicVillaAPI\\Migrations\\20251029073026_seedVilla.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Yr25MagicVillaAPI\\Migrations\\20251029073026_seedVilla.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\acer\\source\\repos\\Yr25MagicVillaAPI\\Yr25MagicVillaAPI\\Migrations\\20251029071041_seedVilla.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Yr25MagicVillaAPI\\Migrations\\20251029071041_seedVilla.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{02E87F82-C706-4149-8921-E4F4DA016D57}|Yr25MagicVillaAPI\\Yr25MagicVillaAPI.csproj|c:\\users\\acer\\source\\repos\\yr25magicvillaapi\\yr25magicvillaapi\\docs\\textfile.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{02E87F82-C706-4149-8921-E4F4DA016D57}|Yr25MagicVillaAPI\\Yr25MagicVillaAPI.csproj|solutionrelative:yr25magicvillaapi\\docs\\textfile.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\acer\\source\\repos\\Yr25MagicVillaAPI\\Yr25MagicVillaAPI\\Migrations\\20251029071157_seedVilla2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Yr25MagicVillaAPI\\Migrations\\20251029071157_seedVilla2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02E87F82-C706-4149-8921-E4F4DA016D57}|Yr25MagicVillaAPI\\Yr25MagicVillaAPI.csproj|c:\\users\\acer\\source\\repos\\yr25magicvillaapi\\yr25magicvillaapi\\models\\villa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02E87F82-C706-4149-8921-E4F4DA016D57}|Yr25MagicVillaAPI\\Yr25MagicVillaAPI.csproj|solutionrelative:yr25magicvillaapi\\models\\villa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02E87F82-C706-4149-8921-E4F4DA016D57}|Yr25MagicVillaAPI\\Yr25MagicVillaAPI.csproj|c:\\users\\acer\\source\\repos\\yr25magicvillaapi\\yr25magicvillaapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02E87F82-C706-4149-8921-E4F4DA016D57}|Yr25MagicVillaAPI\\Yr25MagicVillaAPI.csproj|solutionrelative:yr25magicvillaapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{02E87F82-C706-4149-8921-E4F4DA016D57}|Yr25MagicVillaAPI\\Yr25MagicVillaAPI.csproj|c:\\users\\acer\\source\\repos\\yr25magicvillaapi\\yr25magicvillaapi\\data\\villastore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -21,21 +53,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{02E87F82-C706-4149-8921-E4F4DA016D57}|Yr25MagicVillaAPI\\Yr25MagicVillaAPI.csproj|c:\\users\\acer\\source\\repos\\yr25magicvillaapi\\yr25magicvillaapi\\models\\dto\\villadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{02E87F82-C706-4149-8921-E4F4DA016D57}|Yr25MagicVillaAPI\\Yr25MagicVillaAPI.csproj|solutionrelative:yr25magicvillaapi\\models\\dto\\villadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\acer\\AppData\\Local\\SourceServer\\f05fe8ce9e4b63897215c2088f158227c3992ada67a4ecfd1f52f3f4da4ff7df\\Yr25MagicVillaAPI\\Controllers\\VillaAPIController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{02E87F82-C706-4149-8921-E4F4DA016D57}|Yr25MagicVillaAPI\\Yr25MagicVillaAPI.csproj|c:\\users\\acer\\source\\repos\\yr25magicvillaapi\\yr25magicvillaapi\\models\\villa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{02E87F82-C706-4149-8921-E4F4DA016D57}|Yr25MagicVillaAPI\\Yr25MagicVillaAPI.csproj|solutionrelative:yr25magicvillaapi\\models\\villa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{02E87F82-C706-4149-8921-E4F4DA016D57}|Yr25MagicVillaAPI\\Yr25MagicVillaAPI.csproj|c:\\users\\acer\\source\\repos\\yr25magicvillaapi\\yr25magicvillaapi\\yr25magicvillaapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{02E87F82-C706-4149-8921-E4F4DA016D57}|Yr25MagicVillaAPI\\Yr25MagicVillaAPI.csproj|solutionrelative:yr25magicvillaapi\\yr25magicvillaapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{02E87F82-C706-4149-8921-E4F4DA016D57}|Yr25MagicVillaAPI\\Yr25MagicVillaAPI.csproj|c:\\users\\acer\\source\\repos\\yr25magicvillaapi\\yr25magicvillaapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{02E87F82-C706-4149-8921-E4F4DA016D57}|Yr25MagicVillaAPI\\Yr25MagicVillaAPI.csproj|solutionrelative:yr25magicvillaapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -45,93 +62,175 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Villa.cs",
-              "DocumentMoniker": "C:\\Users\\acer\\source\\repos\\Yr25MagicVillaAPI\\Yr25MagicVillaAPI\\Models\\Villa.cs",
-              "RelativeDocumentMoniker": "Yr25MagicVillaAPI\\Models\\Villa.cs",
-              "ToolTip": "C:\\Users\\acer\\source\\repos\\Yr25MagicVillaAPI\\Yr25MagicVillaAPI\\Models\\Villa.cs",
-              "RelativeToolTip": "Yr25MagicVillaAPI\\Models\\Villa.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-28T06:27:27.821Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "VillaAPIController.cs",
               "DocumentMoniker": "C:\\Users\\acer\\source\\repos\\Yr25MagicVillaAPI\\Yr25MagicVillaAPI\\Controllers\\VillaAPIController.cs",
               "RelativeDocumentMoniker": "Yr25MagicVillaAPI\\Controllers\\VillaAPIController.cs",
               "ToolTip": "C:\\Users\\acer\\source\\repos\\Yr25MagicVillaAPI\\Yr25MagicVillaAPI\\Controllers\\VillaAPIController.cs",
               "RelativeToolTip": "Yr25MagicVillaAPI\\Controllers\\VillaAPIController.cs",
-              "ViewState": "AgIAAGUAAAAAAAAAAAAnwGsAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAKQAAAAAAAAAAAAkwLMAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-28T06:12:07.312Z",
+              "WhenOpened": "2025-10-29T09:29:42.327Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\acer\\source\\repos\\Yr25MagicVillaAPI\\Yr25MagicVillaAPI\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "Yr25MagicVillaAPI\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\acer\\source\\repos\\Yr25MagicVillaAPI\\Yr25MagicVillaAPI\\Properties\\launchSettings.json",
-              "RelativeToolTip": "Yr25MagicVillaAPI\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAIAAAAAAAAAAABRwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-10-28T06:08:04.957Z",
+              "DocumentIndex": 1,
+              "Title": "20251029074341_data.cs",
+              "DocumentMoniker": "C:\\Users\\acer\\source\\repos\\Yr25MagicVillaAPI\\Yr25MagicVillaAPI\\Migrations\\20251029074341_data.cs",
+              "RelativeDocumentMoniker": "Yr25MagicVillaAPI\\Migrations\\20251029074341_data.cs",
+              "ToolTip": "C:\\Users\\acer\\source\\repos\\Yr25MagicVillaAPI\\Yr25MagicVillaAPI\\Migrations\\20251029074341_data.cs",
+              "RelativeToolTip": "Yr25MagicVillaAPI\\Migrations\\20251029074341_data.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T07:43:41.231Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Yr25MagicVillaAPI.csproj",
+              "DocumentMoniker": "C:\\Users\\acer\\source\\repos\\Yr25MagicVillaAPI\\Yr25MagicVillaAPI\\Yr25MagicVillaAPI.csproj",
+              "RelativeDocumentMoniker": "Yr25MagicVillaAPI\\Yr25MagicVillaAPI.csproj",
+              "ToolTip": "C:\\Users\\acer\\source\\repos\\Yr25MagicVillaAPI\\Yr25MagicVillaAPI\\Yr25MagicVillaAPI.csproj",
+              "RelativeToolTip": "Yr25MagicVillaAPI\\Yr25MagicVillaAPI.csproj",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAQwAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-28T05:13:33.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "20251029073250_seedVilla.cs",
+              "DocumentMoniker": "C:\\Users\\acer\\source\\repos\\Yr25MagicVillaAPI\\Yr25MagicVillaAPI\\Migrations\\20251029073250_seedVilla.cs",
+              "RelativeDocumentMoniker": "Yr25MagicVillaAPI\\Migrations\\20251029073250_seedVilla.cs",
+              "ToolTip": "C:\\Users\\acer\\source\\repos\\Yr25MagicVillaAPI\\Yr25MagicVillaAPI\\Migrations\\20251029073250_seedVilla.cs",
+              "RelativeToolTip": "Yr25MagicVillaAPI\\Migrations\\20251029073250_seedVilla.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T07:32:50.319Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\acer\\source\\repos\\Yr25MagicVillaAPI\\Yr25MagicVillaAPI\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Yr25MagicVillaAPI\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\acer\\source\\repos\\Yr25MagicVillaAPI\\Yr25MagicVillaAPI\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Yr25MagicVillaAPI\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAkwCYAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T06:31:58.278Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "20251029073026_seedVilla.cs",
+              "DocumentMoniker": "C:\\Users\\acer\\source\\repos\\Yr25MagicVillaAPI\\Yr25MagicVillaAPI\\Migrations\\20251029073026_seedVilla.cs",
+              "RelativeDocumentMoniker": "Yr25MagicVillaAPI\\Migrations\\20251029073026_seedVilla.cs",
+              "ToolTip": "C:\\Users\\acer\\source\\repos\\Yr25MagicVillaAPI\\Yr25MagicVillaAPI\\Migrations\\20251029073026_seedVilla.cs",
+              "RelativeToolTip": "Yr25MagicVillaAPI\\Migrations\\20251029073026_seedVilla.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAYwBkAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T07:30:27.017Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "20251029071041_seedVilla.cs",
+              "DocumentMoniker": "C:\\Users\\acer\\source\\repos\\Yr25MagicVillaAPI\\Yr25MagicVillaAPI\\Migrations\\20251029071041_seedVilla.cs",
+              "RelativeDocumentMoniker": "Yr25MagicVillaAPI\\Migrations\\20251029071041_seedVilla.cs",
+              "ToolTip": "C:\\Users\\acer\\source\\repos\\Yr25MagicVillaAPI\\Yr25MagicVillaAPI\\Migrations\\20251029071041_seedVilla.cs",
+              "RelativeToolTip": "Yr25MagicVillaAPI\\Migrations\\20251029071041_seedVilla.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T07:10:41.849Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "20251029071157_seedVilla2.cs",
+              "DocumentMoniker": "C:\\Users\\acer\\source\\repos\\Yr25MagicVillaAPI\\Yr25MagicVillaAPI\\Migrations\\20251029071157_seedVilla2.cs",
+              "RelativeDocumentMoniker": "Yr25MagicVillaAPI\\Migrations\\20251029071157_seedVilla2.cs",
+              "ToolTip": "C:\\Users\\acer\\source\\repos\\Yr25MagicVillaAPI\\Yr25MagicVillaAPI\\Migrations\\20251029071157_seedVilla2.cs",
+              "RelativeToolTip": "Yr25MagicVillaAPI\\Migrations\\20251029071157_seedVilla2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T07:11:57.803Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "TextFile.txt",
               "DocumentMoniker": "C:\\Users\\acer\\source\\repos\\Yr25MagicVillaAPI\\Yr25MagicVillaAPI\\Docs\\TextFile.txt",
               "RelativeDocumentMoniker": "Yr25MagicVillaAPI\\Docs\\TextFile.txt",
               "ToolTip": "C:\\Users\\acer\\source\\repos\\Yr25MagicVillaAPI\\Yr25MagicVillaAPI\\Docs\\TextFile.txt",
               "RelativeToolTip": "Yr25MagicVillaAPI\\Docs\\TextFile.txt",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAQwBEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwB0AAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
               "WhenOpened": "2025-10-28T05:16:31.656Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 9,
+              "Title": "Villa.cs",
+              "DocumentMoniker": "C:\\Users\\acer\\source\\repos\\Yr25MagicVillaAPI\\Yr25MagicVillaAPI\\Models\\Villa.cs",
+              "RelativeDocumentMoniker": "Yr25MagicVillaAPI\\Models\\Villa.cs",
+              "ToolTip": "C:\\Users\\acer\\source\\repos\\Yr25MagicVillaAPI\\Yr25MagicVillaAPI\\Models\\Villa.cs",
+              "RelativeToolTip": "Yr25MagicVillaAPI\\Models\\Villa.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T06:27:27.821Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\acer\\source\\repos\\Yr25MagicVillaAPI\\Yr25MagicVillaAPI\\Program.cs",
               "RelativeDocumentMoniker": "Yr25MagicVillaAPI\\Program.cs",
               "ToolTip": "C:\\Users\\acer\\source\\repos\\Yr25MagicVillaAPI\\Yr25MagicVillaAPI\\Program.cs",
               "RelativeToolTip": "Yr25MagicVillaAPI\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABeAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-28T05:08:08.087Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 12,
               "Title": "VillaDTO.cs",
               "DocumentMoniker": "C:\\Users\\acer\\source\\repos\\Yr25MagicVillaAPI\\Yr25MagicVillaAPI\\Models\\DTO\\VillaDTO.cs",
               "RelativeDocumentMoniker": "Yr25MagicVillaAPI\\Models\\DTO\\VillaDTO.cs",
               "ToolTip": "C:\\Users\\acer\\source\\repos\\Yr25MagicVillaAPI\\Yr25MagicVillaAPI\\Models\\DTO\\VillaDTO.cs",
               "RelativeToolTip": "Yr25MagicVillaAPI\\Models\\DTO\\VillaDTO.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAwAwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAcwAsAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-28T06:27:32.269Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 11,
               "Title": "VillaStore.cs",
               "DocumentMoniker": "C:\\Users\\acer\\source\\repos\\Yr25MagicVillaAPI\\Yr25MagicVillaAPI\\Data\\VillaStore.cs",
               "RelativeDocumentMoniker": "Yr25MagicVillaAPI\\Data\\VillaStore.cs",
@@ -140,32 +239,6 @@
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAABQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-28T06:31:51.833Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "VillaAPIController.cs",
-              "DocumentMoniker": "C:\\Users\\acer\\AppData\\Local\\SourceServer\\f05fe8ce9e4b63897215c2088f158227c3992ada67a4ecfd1f52f3f4da4ff7df\\Yr25MagicVillaAPI\\Controllers\\VillaAPIController.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\SourceServer\\f05fe8ce9e4b63897215c2088f158227c3992ada67a4ecfd1f52f3f4da4ff7df\\Yr25MagicVillaAPI\\Controllers\\VillaAPIController.cs",
-              "ToolTip": "C:\\Users\\acer\\AppData\\Local\\SourceServer\\f05fe8ce9e4b63897215c2088f158227c3992ada67a4ecfd1f52f3f4da4ff7df\\Yr25MagicVillaAPI\\Controllers\\VillaAPIController.cs [Read Only]",
-              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\SourceServer\\f05fe8ce9e4b63897215c2088f158227c3992ada67a4ecfd1f52f3f4da4ff7df\\Yr25MagicVillaAPI\\Controllers\\VillaAPIController.cs [Read Only]",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-28T08:51:36.325Z",
-              "EditorCaption": " [Read Only]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Yr25MagicVillaAPI.csproj",
-              "DocumentMoniker": "C:\\Users\\acer\\source\\repos\\Yr25MagicVillaAPI\\Yr25MagicVillaAPI\\Yr25MagicVillaAPI.csproj",
-              "RelativeDocumentMoniker": "Yr25MagicVillaAPI\\Yr25MagicVillaAPI.csproj",
-              "ToolTip": "C:\\Users\\acer\\source\\repos\\Yr25MagicVillaAPI\\Yr25MagicVillaAPI\\Yr25MagicVillaAPI.csproj",
-              "RelativeToolTip": "Yr25MagicVillaAPI\\Yr25MagicVillaAPI.csproj",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAQwBAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-10-28T05:13:33.093Z",
               "EditorCaption": ""
             }
           ]

@@ -37,6 +37,22 @@
                     "$ref": "#/components/schemas/VillaDTO"
                   }
                 }
+              },
+              "application/xml": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/VillaDTO"
+                  }
+                }
+              },
+              "text/xml": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/VillaDTO"
+                  }
+                }
               }
             }
           }
@@ -64,6 +80,21 @@
               }
             },
             "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/VillaDTO"
+              }
+            },
+            "application/xml": {
+              "schema": {
+                "$ref": "#/components/schemas/VillaDTO"
+              }
+            },
+            "text/xml": {
+              "schema": {
+                "$ref": "#/components/schemas/VillaDTO"
+              }
+            },
+            "application/*+xml": {
               "schema": {
                 "$ref": "#/components/schemas/VillaDTO"
               }
@@ -112,6 +143,16 @@
                 "schema": {
                   "$ref": "#/components/schemas/VillaDTO"
                 }
+              },
+              "application/xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/VillaDTO"
+                }
+              },
+              "text/xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/VillaDTO"
+                }
               }
             }
           },
@@ -132,6 +173,16 @@
                 "schema": {
                   "$ref": "#/components/schemas/ProblemDetails"
                 }
+              },
+              "application/xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "text/xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
               }
             }
           },
@@ -149,6 +200,16 @@
                 }
               },
               "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "application/xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "text/xml": {
                 "schema": {
                   "$ref": "#/components/schemas/ProblemDetails"
                 }
@@ -216,6 +277,21 @@
               "schema": {
                 "$ref": "#/components/schemas/VillaDTO"
               }
+            },
+            "application/xml": {
+              "schema": {
+                "$ref": "#/components/schemas/VillaDTO"
+              }
+            },
+            "text/xml": {
+              "schema": {
+                "$ref": "#/components/schemas/VillaDTO"
+              }
+            },
+            "application/*+xml": {
+              "schema": {
+                "$ref": "#/components/schemas/VillaDTO"
+              }
             }
           }
         },
@@ -268,6 +344,30 @@
               }
             },
             "application/*+json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/Operation"
+                }
+              }
+            },
+            "application/xml": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/Operation"
+                }
+              }
+            },
+            "text/xml": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/Operation"
+                }
+              }
+            },
+            "application/*+xml": {
               "schema": {
                 "type": "array",
                 "items": {
@@ -353,7 +453,8 @@
       },
       "VillaDTO": {
         "required": [
-          "name"
+          "name",
+          "rate"
         ],
         "type": "object",
         "properties": {
@@ -366,13 +467,29 @@
             "minLength": 1,
             "type": "string"
           },
-          "occupancy": {
-            "type": "integer",
-            "format": "int32"
+          "details": {
+            "type": "string",
+            "nullable": true
+          },
+          "rate": {
+            "type": "number",
+            "format": "double"
           },
           "sqft": {
             "type": "integer",
             "format": "int32"
+          },
+          "occupancy": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "imageUrl": {
+            "type": "string",
+            "nullable": true
+          },
+          "amenity": {
+            "type": "string",
+            "nullable": true
           }
         },
         "additionalProperties": false
