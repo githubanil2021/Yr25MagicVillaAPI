@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\acer\\source\\repos\\Yr25MagicVillaAPI\\Yr25MagicVillaAPI\\Yr25MagicVillaAPI.csproj": {}
+    "D:\\AK\\Yr25MagicVillaAPI\\Yr25MagicVillaAPI\\Yr25MagicVillaAPI\\Yr25MagicVillaAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\acer\\source\\repos\\Yr25MagicVillaAPI\\Yr25MagicVillaAPI\\Yr25MagicVillaAPI.csproj": {
+    "D:\\AK\\Yr25MagicVillaAPI\\Yr25MagicVillaAPI\\Yr25MagicVillaAPI\\Yr25MagicVillaAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\acer\\source\\repos\\Yr25MagicVillaAPI\\Yr25MagicVillaAPI\\Yr25MagicVillaAPI.csproj",
+        "projectUniqueName": "D:\\AK\\Yr25MagicVillaAPI\\Yr25MagicVillaAPI\\Yr25MagicVillaAPI\\Yr25MagicVillaAPI.csproj",
         "projectName": "Yr25MagicVillaAPI",
-        "projectPath": "C:\\Users\\acer\\source\\repos\\Yr25MagicVillaAPI\\Yr25MagicVillaAPI\\Yr25MagicVillaAPI.csproj",
-        "packagesPath": "C:\\Users\\acer\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\acer\\source\\repos\\Yr25MagicVillaAPI\\Yr25MagicVillaAPI\\obj\\",
+        "projectPath": "D:\\AK\\Yr25MagicVillaAPI\\Yr25MagicVillaAPI\\Yr25MagicVillaAPI\\Yr25MagicVillaAPI.csproj",
+        "packagesPath": "C:\\Users\\ANIL\\.nuget\\packages\\",
+        "outputPath": "D:\\AK\\Yr25MagicVillaAPI\\Yr25MagicVillaAPI\\Yr25MagicVillaAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\acer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ANIL\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -51,6 +51,14 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[15.1.0, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
             "Microsoft.AspNetCore.JsonPatch": {
               "target": "Package",
               "version": "[9.0.10, )"
@@ -105,7 +113,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

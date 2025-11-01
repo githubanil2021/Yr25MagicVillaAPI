@@ -29,3 +29,8 @@ It follows the RFC 6902 specification (JSON Patch standard).
 			options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultSQLConn"));
 		});
 
+8.Automapper
+	1.AutoMapper package
+	2.AutoMapper.Extension.Microsoft.DependencyInjection
+	3._mapper.Map<Villa>(villaDTO);
+

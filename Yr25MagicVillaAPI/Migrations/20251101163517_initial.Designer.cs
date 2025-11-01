@@ -12,8 +12,8 @@ using Yr25MagicVillaAPI.Data;
 namespace Yr25MagicVillaAPI.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20251029074341_data")]
-    partial class data
+    [Migration("20251101163517_initial")]
+    partial class initial
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
