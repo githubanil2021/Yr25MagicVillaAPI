@@ -1,7 +1,7 @@
 [
   {
     "ContainingType": "Yr25MagicVillaAPI.Controllers.VillaAPIController",
-    "Method": "GetVillas",
+    "Method": "GetVillasAsync",
     "RelativePath": "api/VillaAPI",
     "HttpMethod": "GET",
     "IsController": true,
@@ -9,7 +9,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Yr25MagicVillaAPI.Models.DTO.VillaDTO, Yr25MagicVillaAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Yr25MagicVillaAPI.Models.APIResponse",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -30,16 +30,28 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "villaDTO",
-        "Type": "Yr25MagicVillaAPI.Models.DTO.VillaDTO",
+        "Name": "createDTO",
+        "Type": "Yr25MagicVillaAPI.Models.DTO.VillaCreateDTO",
         "IsRequired": true
       }
     ],
-    "ReturnTypes": []
+    "ReturnTypes": [
+      {
+        "Type": "Yr25MagicVillaAPI.Models.APIResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json",
+          "application/xml",
+          "text/xml"
+        ],
+        "StatusCode": 200
+      }
+    ]
   },
   {
     "ContainingType": "Yr25MagicVillaAPI.Controllers.VillaAPIController",
-    "Method": "GetVilla",
+    "Method": "GetVillaAsync",
     "RelativePath": "api/VillaAPI/{id}",
     "HttpMethod": "GET",
     "IsController": true,
@@ -102,7 +114,19 @@
         "IsRequired": true
       }
     ],
-    "ReturnTypes": [],
+    "ReturnTypes": [
+      {
+        "Type": "Yr25MagicVillaAPI.Models.APIResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json",
+          "application/xml",
+          "text/xml"
+        ],
+        "StatusCode": 200
+      }
+    ],
     "EndpointName": "DeleteVilla"
   },
   {
@@ -119,12 +143,24 @@
         "IsRequired": true
       },
       {
-        "Name": "villaDTO",
-        "Type": "Yr25MagicVillaAPI.Models.DTO.VillaDTO",
+        "Name": "updateDTO",
+        "Type": "Yr25MagicVillaAPI.Models.DTO.VillaUpdateDTO",
         "IsRequired": true
       }
     ],
-    "ReturnTypes": [],
+    "ReturnTypes": [
+      {
+        "Type": "Yr25MagicVillaAPI.Models.APIResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json",
+          "application/xml",
+          "text/xml"
+        ],
+        "StatusCode": 200
+      }
+    ],
     "EndpointName": "UpdateVilla"
   },
   {
@@ -146,7 +182,183 @@
         "IsRequired": true
       }
     ],
-    "ReturnTypes": [],
+    "ReturnTypes": [
+      {
+        "Type": "Yr25MagicVillaAPI.Models.APIResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json",
+          "application/xml",
+          "text/xml"
+        ],
+        "StatusCode": 200
+      }
+    ],
     "EndpointName": "UpdatePartialVilla"
+  },
+  {
+    "ContainingType": "Yr25MagicVillaAPI.Controllers.VillaNumberAPIController",
+    "Method": "GetVillaNumbersAsync",
+    "RelativePath": "api/VillaNumberAPI",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Yr25MagicVillaAPI.Models.APIResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json",
+          "application/xml",
+          "text/xml"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Yr25MagicVillaAPI.Controllers.VillaNumberAPIController",
+    "Method": "CreateVillaNumber",
+    "RelativePath": "api/VillaNumberAPI",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createDTO",
+        "Type": "Yr25MagicVillaAPI.Models.DTO.VillaNumberCreateDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Yr25MagicVillaAPI.Models.APIResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json",
+          "application/xml",
+          "text/xml"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Yr25MagicVillaAPI.Controllers.VillaNumberAPIController",
+    "Method": "GetVillaNumberAsync",
+    "RelativePath": "api/VillaNumberAPI/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Yr25MagicVillaAPI.Models.DTO.VillaDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json",
+          "application/xml",
+          "text/xml"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json",
+          "application/xml",
+          "text/xml"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json",
+          "application/xml",
+          "text/xml"
+        ],
+        "StatusCode": 404
+      }
+    ],
+    "EndpointName": "GetVillaNumber"
+  },
+  {
+    "ContainingType": "Yr25MagicVillaAPI.Controllers.VillaNumberAPIController",
+    "Method": "DeleteVillaNumber",
+    "RelativePath": "api/VillaNumberAPI/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Yr25MagicVillaAPI.Models.APIResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json",
+          "application/xml",
+          "text/xml"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "DeleteVillaNumber"
+  },
+  {
+    "ContainingType": "Yr25MagicVillaAPI.Controllers.VillaNumberAPIController",
+    "Method": "UpdateVilla",
+    "RelativePath": "api/VillaNumberAPI/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updateDTO",
+        "Type": "Yr25MagicVillaAPI.Models.DTO.VillaNumberUpdateDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Yr25MagicVillaAPI.Models.APIResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json",
+          "application/xml",
+          "text/xml"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "UpdateVillaNumber"
   }
 ]

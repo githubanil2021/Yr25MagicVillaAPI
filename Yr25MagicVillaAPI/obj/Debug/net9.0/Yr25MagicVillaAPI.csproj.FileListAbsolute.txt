@@ -342,3 +342,5 @@ D:\AK\Yr25MagicVillaAPI\Yr25MagicVillaAPI\Yr25MagicVillaAPI\obj\Debug\net9.0\ref
 D:\AK\Yr25MagicVillaAPI\Yr25MagicVillaAPI\Yr25MagicVillaAPI\obj\Debug\net9.0\Yr25MagicVillaAPI.pdb
 D:\AK\Yr25MagicVillaAPI\Yr25MagicVillaAPI\Yr25MagicVillaAPI\obj\Debug\net9.0\Yr25MagicVillaAPI.genruntimeconfig.cache
 D:\AK\Yr25MagicVillaAPI\Yr25MagicVillaAPI\Yr25MagicVillaAPI\obj\Debug\net9.0\ref\Yr25MagicVillaAPI.dll
+D:\AK\Yr25MagicVillaAPI\Yr25MagicVillaAPI\Yr25MagicVillaAPI\bin\Debug\net9.0\AutoMapper.dll
+D:\AK\Yr25MagicVillaAPI\Yr25MagicVillaAPI\Yr25MagicVillaAPI\bin\Debug\net9.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

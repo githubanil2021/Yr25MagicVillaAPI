@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Yr25MagicVillaAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c18264e4749bae31dce823116267a59b8ad73612")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d2ff125cf935a6bb062a0e0521ddccd74b8897c2")]
 [assembly: System.Reflection.AssemblyProductAttribute("Yr25MagicVillaAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Yr25MagicVillaAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -34,3 +34,11 @@ It follows the RFC 6902 specification (JSON Patch standard).
 	2.AutoMapper.Extension.Microsoft.DependencyInjection
 	3._mapper.Map<Villa>(villaDTO);
 
+9.Repository
+
+	public interface IRepository<T> where T : class
+	public class Repository<T> : IRepository<T> where T : class
+	this.dbSet= _db.Set<T>();
+
+10.VillaNumberDTO[VillNo, SpecialDetails]
+11.VillaNumber DbContext etc.
