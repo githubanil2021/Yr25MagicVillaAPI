@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "Yr25MagicVillaAPI\\Yr25MagicVillaAPI.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "MagicVilla_Web\\MagicVilla_Web.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

@@ -1,0 +1,38 @@
+﻿@using MagicVilla_Web.Models.DTO
+@model IEnumerable<VillaDTO>
+ <img src="images/home/v.jpg" width="100%" />
+
+ <hr/>
+ <div class="row" style="--bs-gutter-x:0">
+     @foreach(var villa in Model)
+    {
+        <div class="p-4 col-md-12 col-lg-6">
+            <div class="row" style="border-radius:20px; border: 1px solid ffffff">
+                <div class="col-4">
+                    <img class="d-block w-100" style="border-radius: 20px;" src="@villa.ImageUrl" />
+
+                </div>
+                <div class="col-8">
+                    <p class="card-title text-warning" style="font-size:xx-large">@villa.Name</p>
+                    <p class="card-text">
+                        @villa.Details
+                    </p>
+                </div>
+
+                <div class="col-12">
+                    <div class="row pb-3 pt-2">
+                        <div class="col-4">
+                            <a href="" class="btn btn-success form-control">Book</a>
+                        </div>
+                        <div class="col-4">
+                            <span class="">Max Occupancy @villa.Occupancy </span>
+                        </div>
+    
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    }
+</div>

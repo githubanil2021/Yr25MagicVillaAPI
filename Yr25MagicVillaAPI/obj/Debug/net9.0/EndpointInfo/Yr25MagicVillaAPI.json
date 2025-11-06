@@ -1080,11 +1080,16 @@
       },
       "VillaNumberCreateDTO": {
         "required": [
+          "villaId",
           "villaNo"
         ],
         "type": "object",
         "properties": {
           "villaNo": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "villaId": {
             "type": "integer",
             "format": "int32"
           },
@@ -1097,11 +1102,16 @@
       },
       "VillaNumberUpdateDTO": {
         "required": [
+          "villaId",
           "villaNo"
         ],
         "type": "object",
         "properties": {
           "villaNo": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "villaId": {
             "type": "integer",
             "format": "int32"
           },

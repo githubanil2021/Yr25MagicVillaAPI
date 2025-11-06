@@ -1,0 +1,12 @@
+D:\AK\Yr25MagicVillaAPI\Yr25MagicVillaAPI\MagicVilla_Utility\bin\Debug\net8.0\MagicVilla_Utility.deps.json
+D:\AK\Yr25MagicVillaAPI\Yr25MagicVillaAPI\MagicVilla_Utility\bin\Debug\net8.0\MagicVilla_Utility.dll
+D:\AK\Yr25MagicVillaAPI\Yr25MagicVillaAPI\MagicVilla_Utility\bin\Debug\net8.0\MagicVilla_Utility.pdb
+D:\AK\Yr25MagicVillaAPI\Yr25MagicVillaAPI\MagicVilla_Utility\obj\Debug\net8.0\MagicVilla_Utility.GeneratedMSBuildEditorConfig.editorconfig
+D:\AK\Yr25MagicVillaAPI\Yr25MagicVillaAPI\MagicVilla_Utility\obj\Debug\net8.0\MagicVilla_Utility.AssemblyInfoInputs.cache
+D:\AK\Yr25MagicVillaAPI\Yr25MagicVillaAPI\MagicVilla_Utility\obj\Debug\net8.0\MagicVilla_Utility.AssemblyInfo.cs
+D:\AK\Yr25MagicVillaAPI\Yr25MagicVillaAPI\MagicVilla_Utility\obj\Debug\net8.0\MagicVilla_Utility.csproj.CoreCompileInputs.cache
+D:\AK\Yr25MagicVillaAPI\Yr25MagicVillaAPI\MagicVilla_Utility\obj\Debug\net8.0\MagicVilla_Utility.sourcelink.json
+D:\AK\Yr25MagicVillaAPI\Yr25MagicVillaAPI\MagicVilla_Utility\obj\Debug\net8.0\MagicVilla_Utility.dll
+D:\AK\Yr25MagicVillaAPI\Yr25MagicVillaAPI\MagicVilla_Utility\obj\Debug\net8.0\refint\MagicVilla_Utility.dll
+D:\AK\Yr25MagicVillaAPI\Yr25MagicVillaAPI\MagicVilla_Utility\obj\Debug\net8.0\MagicVilla_Utility.pdb
+D:\AK\Yr25MagicVillaAPI\Yr25MagicVillaAPI\MagicVilla_Utility\obj\Debug\net8.0\ref\MagicVilla_Utility.dll

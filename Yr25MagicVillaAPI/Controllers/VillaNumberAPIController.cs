@@ -43,7 +43,7 @@ namespace Yr25MagicVillaAPI.Controllers
             try
             {
                 _logger.LogInformation("Getting all vilas Nos");
-                IEnumerable<VillaNumber> villaList = await _dbVillaNo.GetAllAsync();
+                IEnumerable<VillaNumber> villaList = await _dbVillaNo.GetAllAsync(includeProperties:"Villa");
 
                 _response.Result = _mapper.Map<List<VillaNumberDTO>>(villaList);
                 _response.StatusCode = HttpStatusCode.OK;
@@ -122,13 +122,13 @@ namespace Yr25MagicVillaAPI.Controllers
                 
                 if(await _dbVillaNo.GetAsync(u=>u.VillaNo == createDTO.VillaNo)!=null)
                 {
-                    ModelState.AddModelError("CustomError", "Villa No alerady");
+                    ModelState.AddModelError("ErrorMessages", "Villa No alerady");
                     return BadRequest(ModelState);
                 }
 
                 if (await _dbVilla.GetAsync(u => u.Id == createDTO.VillaId) == null)
                 {
-                    ModelState.AddModelError("CustomError", "Villa ID Bad[ForeignKey]");
+                    ModelState.AddModelError("ErrorMessages", "Villa ID Bad[ForeignKey]");
                     return BadRequest(ModelState);
                 }
 
