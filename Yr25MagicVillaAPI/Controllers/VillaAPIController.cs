@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.JsonPatch;
 using Microsoft.AspNetCore.Mvc;
@@ -34,6 +35,7 @@ namespace Yr25MagicVillaAPI.Controllers
         }
 
         [HttpGet]
+        [Authorize]
         public async Task<ActionResult<APIResponse>> GetVillasAsync()
         {
             try
@@ -63,6 +65,7 @@ namespace Yr25MagicVillaAPI.Controllers
         [ProducesResponseType(200, Type=typeof(VillaDTO))]
         [ProducesResponseType(400)]
         [ProducesResponseType(404)]
+        [Authorize(Roles ="admin")]
         public async Task<ActionResult<APIResponse>>  GetVillaAsync(int id)
         {
             try
@@ -100,6 +103,7 @@ namespace Yr25MagicVillaAPI.Controllers
         }
 
         [HttpPost]
+        [Authorize(Roles ="admin")]
         public async Task<ActionResult<APIResponse>> CreateVilla([FromBody]VillaCreateDTO createDTO)
         {
             try
@@ -159,6 +163,7 @@ namespace Yr25MagicVillaAPI.Controllers
 
 
         [HttpDelete("{id:int}", Name ="DeleteVilla")]
+        [Authorize(Roles ="CUSTOM")]
         public async Task<ActionResult<APIResponse>> DeleteVilla(int id)
         {
             try
