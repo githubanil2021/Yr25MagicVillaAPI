@@ -86,9 +86,9 @@ namespace Yr25MagicVillaAPI.Repository
             return user;
         }
 
-        Task<LocalUser> IUserRepository.Register(RegistrationRequestDTO registrationRequestDTO)
-        {
-            throw new NotImplementedException();
-        }
+        //Task<LocalUser> IUserRepository.Register(RegistrationRequestDTO registrationRequestDTO)
+        //{
+        //    throw new NotImplementedException();
+        //}
     }
 }

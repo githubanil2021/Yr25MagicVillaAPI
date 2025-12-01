@@ -37,7 +37,7 @@ namespace Yr25MagicVillaAPI.Controllers
             _apiResponse.IsSuccess = true;
             _apiResponse.Result= loginResponse;
 
-            return View(_apiResponse);
+            return Ok(_apiResponse);
         }
 
 

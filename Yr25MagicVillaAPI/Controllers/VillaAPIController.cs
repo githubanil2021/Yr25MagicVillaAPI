@@ -36,6 +36,7 @@ namespace Yr25MagicVillaAPI.Controllers
 
         [HttpGet]
         [Authorize]
+        [ProducesResponseType(StatusCodes.Status200OK)]
         public async Task<ActionResult<APIResponse>> GetVillasAsync()
         {
             try
@@ -104,6 +105,13 @@ namespace Yr25MagicVillaAPI.Controllers
 
         [HttpPost]
         [Authorize(Roles ="admin")]
+        [ProducesResponseType(StatusCodes.Status201Created)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
+
+        [ProducesResponseType(StatusCodes.Status401Unauthorized)]
+        [ProducesResponseType(StatusCodes.Status403Forbidden)]
+
         public async Task<ActionResult<APIResponse>> CreateVilla([FromBody]VillaCreateDTO createDTO)
         {
             try
@@ -164,6 +172,13 @@ namespace Yr25MagicVillaAPI.Controllers
 
         [HttpDelete("{id:int}", Name ="DeleteVilla")]
         [Authorize(Roles ="CUSTOM")]
+
+        [ProducesResponseType(StatusCodes.Status204NoContent)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+
+        [ProducesResponseType(StatusCodes.Status401Unauthorized)]
+        [ProducesResponseType(StatusCodes.Status403Forbidden)]
         public async Task<ActionResult<APIResponse>> DeleteVilla(int id)
         {
             try

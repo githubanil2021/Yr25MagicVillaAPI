@@ -1,5 +1,37 @@
 [
   {
+    "ContainingType": "Yr25MagicVillaAPI.Controllers.UsersController",
+    "Method": "Login",
+    "RelativePath": "api/UsersAuth/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "Yr25MagicVillaAPI.Models.DTO.LoginRequestDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Yr25MagicVillaAPI.Controllers.UsersController",
+    "Method": "Register",
+    "RelativePath": "api/UsersAuth/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "Yr25MagicVillaAPI.Models.DTO.RegistrationRequestDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Yr25MagicVillaAPI.Controllers.VillaAPIController",
     "Method": "GetVillasAsync",
     "RelativePath": "api/VillaAPI",
@@ -45,7 +77,23 @@
           "application/xml",
           "text/xml"
         ],
-        "StatusCode": 200
+        "StatusCode": 201
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json",
+          "application/xml",
+          "text/xml"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 500
       }
     ]
   },
@@ -116,7 +164,12 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Yr25MagicVillaAPI.Models.APIResponse",
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 204
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -124,7 +177,18 @@
           "application/xml",
           "text/xml"
         ],
-        "StatusCode": 200
+        "StatusCode": 404
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json",
+          "application/xml",
+          "text/xml"
+        ],
+        "StatusCode": 400
       }
     ],
     "EndpointName": "DeleteVilla"
