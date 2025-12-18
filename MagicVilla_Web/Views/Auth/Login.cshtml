@@ -1,0 +1,17 @@
+﻿@model MagicVilla_Web.Models.DTO.LoginRequestDTO
+
+<h1>Login</h1>
+
+<form method="post">
+    <div asp-validation-summary="All" ></div>
+    <input asp-for="UserName" placeholder="Username"/>
+    <input asp-for="Password" placeholder="Pass"/>
+    <button type="submit" value="Submit">Login</button>
+
+
+</form>
+
+@section Scripts{
+    <partial name="_ValidationScriptsPartial"/>
+
+}
